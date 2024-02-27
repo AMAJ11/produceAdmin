@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="cont">
+    <h1>Produce Admin</h1> 
+        <input type="text" name="name" class="name" placeholder="name of produce">
+        <input type="text" name="catogary" class="cat" placeholder=" catogary">
+        <div class="money">
+            <input type="number" name="price"  placeholder="price" class="price">
+            <input type="number" name="taxes"  placeholder="taxes" class="taxes">
+            <input type="number" name="count" placeholder="count" class="count">
+            <p class="total"> 0</p>
+        </div>
+        <input type="button" value="Create" class="create">
+        <input type="text" class="inpsearch" placeholder="search by catogary or name">
+        <div class="search">
+            <button onclick="shcat()">search By catogary</button>
+            <button class="ref">Refresh</button>
+            <button onclick="shname()">search By name</button>
+        </div>
+        <table>
+            <tbody class="tb">
+                <tr>
+                    <th>id</th>
+                   <th>name</th>
+                   <th>catogary</th>
+                   <th>price</th>
+                   <th>count</th>
+                   <th>update</th>
+                   <th>delete</th>
+                
+                </tr>
+            </tbody>
+        </table>
+   </div> 
+   <script src="main.js"></script>
+</body>
+</html>

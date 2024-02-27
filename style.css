@@ -1,0 +1,20 @@
+*{scroll-behavior: smooth;box-sizing: border-box}
+body{background-color: rgb(145, 92, 250);}
+input{height: 35px;border-radius: 10px;padding: 20px;text-align: center;}
+.cont {width: 900px;margin: auto;text-align: center;margin-top: 50px;}
+.cont .cat,.name,.inpsearch{width: 100%;margin: 15px 0;transition: 0.2s;}
+.cont .money{width: 100%;margin: auto;}
+.cont .money input{width: 22%;}
+.cont .money p{height: 25px;width: 22%;display: inline-block;background-color: rgb(131, 32, 238);border-radius: 10px;color: white;}
+.cont .cat:focus{scale: 1.1 1;}
+.cont .name:focus{scale: 1.1 1;}
+.cont .create {font-size: large;padding: 10px}
+.cont .create:hover{background-color:rgb(111, 39, 255);color: white;}
+table{margin: 50px;}
+tbody tr th{padding: 10px;border: 1px black solid;width: 150px;}
+#upd{background-color: rgb(209, 170, 246);border-radius: 10px;}
+#del{background-color: rgb(113, 0, 219);border-radius: 10px;}
+h1{color: wheat;text-shadow: 1px 1px red ;}
+.search{display: flex;justify-content: space-between;padding: 0 60px;}
+.search button{border-radius: 10px;}
+.search button:hover{background-color:rgb(111, 39, 255);color: white;}
